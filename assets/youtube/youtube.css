@@ -1,4 +1,10 @@
 
+.youtube {
+  padding: 20px 0;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(5, 5, 5);
+}
 
 .youtubecontainer {
   border-radius: 15px 15px 0px 0px;
