@@ -4827,7 +4827,7 @@ input[type="button"].btn-block {
   padding: 1.5rem;
 }
 
-.card-title {
+.card-title, .team-card-title {
   margin-bottom: 1.25rem;
 }
 
@@ -17719,7 +17719,8 @@ hr.line-deafult {
 }
 
 .section-image .title,
-.section-image .card-plain .card-title {
+.section-image .card-plain,
+.card-title, .team-card-title {
   color: #ffffff;
 }
 
@@ -18187,6 +18188,11 @@ hr.line-deafult {
 
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title {
+  color: initial;
+}
+
+[data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .team-card-title,
+[data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .team-card-title {
   color: initial;
 }
 
@@ -20367,7 +20373,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   color: rgba(255, 255, 255, 0.6);
 }
 
-.card .card-title {
+.card .card-title, .team-card-title {
   margin-bottom: .75rem;
 }
 
@@ -20380,7 +20386,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   padding-right: 0;
 }
 
-.card .card-body .card-title {
+.card .card-body .card-title, .team-card-title {
   color: #ffffff;
   text-transform: inherit;
   font-weight: 300;
@@ -20407,7 +20413,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   font-weight: 100;
 }
 
-.card .card-header .card-category {
+.card .card-header .card-category .team-card-category {
   color: #9A9A9A;
   margin-bottom: 5px;
   font-weight: 300;
@@ -20525,7 +20531,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   margin-bottom: 3px;
 }
 
-.card-chart .card-header .card-category {
+.card-chart .card-header .card-category .team-card-category {
   margin-bottom: 5px;
 }
 
@@ -20895,7 +20901,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   margin-bottom: 3px;
 }
 
-.card-chart .card-header .card-category {
+.card-chart .card-header .card-category .team-card-category {
   margin-bottom: 5px;
 }
 

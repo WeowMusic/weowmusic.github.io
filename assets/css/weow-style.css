@@ -124,14 +124,14 @@ cursor: default;
   font-size: 14px;
 }
 
-.team .member .social {
+.team .member .teamsocial {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.team .member .social a {
+.team .member .teamsocial a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -142,21 +142,21 @@ cursor: default;
   background: #eff2f8;
 }
 
-.team .member .social a i {
+.team .member .teamsocial a i {
   color: #ffffff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.team .member .social a:hover {
+.team .member .teamsocial a:hover {
   background: #cfcfcf;
 }
 
-.team .member .social a:hover i {
+.team .member .teamsocial a:hover i {
   color: #fff;
 }
 
-.team .member .social a + a {
+.team .member .teamsocial a + a {
   margin-left: 8px;
 }
 
