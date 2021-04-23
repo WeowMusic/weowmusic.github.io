@@ -32,6 +32,8 @@ Coded by www.creative-tim.com
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.3" rel="stylesheet" />
+
+  <link id="dark-theme-style" rel="stylesheet" />
 </head>
 
 <body class="presentation-page">
@@ -700,7 +702,12 @@ Coded by www.creative-tim.com
                   </a>
                 </li>
                 <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0">Upgrade to Pro</a>
+                  <a
+                  href="javascript:void()"
+                  class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0"
+                  id="theme-toggler"
+                  onclick="toggleTheme()"
+                ></a>
                 </li>
               </ul>
             </div>
@@ -2105,6 +2112,7 @@ Coded by www.creative-tim.com
   <!--  Google Maps Plugin    -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
   <script src="./assets/js/soft-design-system.min.js?v=1.0.3" type="text/javascript"></script>
+  <script src="index.js"></script>
   <script type="text/javascript">
     if (document.getElementById('state1')) {
       const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
