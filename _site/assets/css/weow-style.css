@@ -1,0 +1,225 @@
+@keyframes move-left-right {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.weow-page .weow-bg {
+  animation: move-left-right 1s infinite;
+  background: #ba54f5;
+  background: -webkit-linear-gradient(0deg, #ba54f5 0%, #212529 100%);
+  background: -o-linear-gradient(0deg, #ba54f5 0%, #212529 100%);
+  background: -moz-linear-gradient(0deg, #ba54f5 0%, #212529 100%);
+  background: linear-gradient(0deg, #ba54f5 0%, #212529 100%);
+  position: absolute;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.weow-page .square {
+  position: absolute;
+  transition: 0.5s ease-out;
+  border-radius: 2px;
+  background-size: 100%;
+  border-radius: 20%;
+}
+
+.weow-page .square-1 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 4s infinite;
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  left: 3%;
+  top: -21%;
+}
+
+.weow-page .square-2 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 6s infinite;
+  height: 400px;
+  width: 400px;
+  opacity: 0.4;
+  right: -5%;
+  top: -12%;
+}
+
+.weow-page .square-3 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 5s infinite;
+  height: 200px;
+  width: 200px;
+  opacity: 0.1;
+  left: -5%;
+  bottom: 0%;
+}
+
+.weow-page .square-4 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 10s infinite;
+  height: 100px;
+  width: 100px;
+  opacity: 0.9;
+  right: 27%;
+  top: 70%;
+}
+
+.weow-page .square-5 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 6s infinite;
+  height: 250px;
+  width: 250px;
+  opacity: 0.1;
+  left: 32%;
+  bottom: 29%;
+}
+
+.weow-page .square-6 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 9s infinite;
+  left: 10%;
+  top: 35%;
+  height: 80px;
+  width: 80px;
+  opacity: 0.8;
+}
+
+.weow-page .square-7 {
+  background-image: url("../../assets/img/logos/wm.png");
+  animation: move-left-right 3s infinite;
+  width: 300px;
+  height: 300px;
+  right: -5%;
+  bottom: 0%;
+  opacity: 0.1;
+}
+
+.weow-page .square-8 {
+  height: 100px;
+  width: 100px;
+  background-image: url("../../assets/img/logos/wm.png");
+  left: 300px;
+  top: 400px;
+  opacity: .4;
+}
+
+/*--------------------------------------------------------------
+# Up-Down Animation
+--------------------------------------------------------------*/
+#updown .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (max-width: 991px) {
+  #updown {
+    height: 100vh;
+    text-align: center;
+  }
+  #updown .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #updown .updown-img {
+    text-align: center;
+  }
+  #updown .updown-img img {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.glow {
+  
+  -webkit-filter: drop-shadow(1px 1px 5px rgba(255, 255, 255, 0.37));
+   filter: drop-shadow(1px 1px 10px rgba(255, 255, 255, 0.418));
+}
+
+.weowcontent-center.brand {
+  width: 40%;
+}
+
+.header-filter {
+  position: relative;
+}
+
+.header-filter .container {
+  z-index: 2;
+  position: relative;
+}
+
+.weow-brand {
+  display: inline-block;
+  padding-top: 0.406813rem;
+  padding-bottom: 0.406813rem;
+  margin-right: 0.9375rem;
+  font-size: 0.99925rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+ .weow-brand {
+  position: relative;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+/* Opacity #2 */
+.hover12 figure {
+	background: #1abc9c;
+}
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: .5;
+}
+
+.weow-clients {
+  transition: transform .2s; /* Animation */
+  opacity: 0.6;
+}
+
+.weow-clients:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  opacity: 10;
+}
+
+.spotify-card {
+  width: 390px;
+  height: 400px;
+  background-color: transparent;
+  box-shadow: 10px 10px;
+  box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+}
+
+.weow-bg-gradient-custom {
+  background-image: linear-gradient(310deg, #1d1d1d 0%, #181818 100%);
+}
