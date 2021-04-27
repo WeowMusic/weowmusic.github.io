@@ -4939,7 +4939,7 @@
   }
   
   .navbar-light .navbar-nav .nav-link {
-    color: #e2d5e6;
+    color: #f3f3f3;
   }
   
   .navbar-light .navbar-nav .nav-link:hover,
@@ -14774,7 +14774,7 @@
   }
   
   .navbar .navbar-brand {
-    color: #e2d5e6;
+    color: #f3f3f3;
     font-size: 0.875rem;
   }
   
@@ -14832,7 +14832,7 @@
   }
   
   .navbar-light {
-    background-color: #fff !important;
+    background-color: #191919 !important;
   }
   
   .navbar-light .navbar-toggler {
@@ -15186,7 +15186,7 @@
   h6,
   .h6,
   .h6 {
-    color: #e2d5e6;
+    color: #d6d6d6;
   }
   
   h1,
@@ -20120,43 +20120,43 @@
   }
   
   .bg-gray {
-    background: #adb5bd;
+    background: #121212;
   }
   
   .bg-gray-100 {
-    background-color: #f8f9fa !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-200 {
-    background-color: #e9ecef !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-300 {
-    background-color: #dee2e6 !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-400 {
-    background-color: #ced4da !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-500 {
-    background-color: #adb5bd !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-600 {
-    background-color: #6c757d !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-700 {
-    background-color: #495057 !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-800 {
-    background-color: #343a40 !important;
+    background-color: #121212 !important;
   }
   
   .bg-gray-900 {
-    background-color: #212529 !important;
+    background-color: #121212 !important;
   }
   
   .letter-spacing-1 {
