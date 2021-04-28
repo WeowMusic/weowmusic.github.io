@@ -433,7 +433,7 @@ progress {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: white;
+  background: rgb(29, 29, 29);
   border-radius: 50px;
   padding: 2px 15px;
 }
