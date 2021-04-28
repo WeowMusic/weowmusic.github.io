@@ -445,16 +445,16 @@ progress {
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
+  color: #b1b1b1;
   margin: 0 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
-  border: 1px solid #fff;
+  border: 1px solid rgb(165, 165, 165);
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .portfolio #portfolio-flters li:last-child {
