@@ -532,12 +532,12 @@ progress {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #696969;
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #696969;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -552,7 +552,7 @@ progress {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #616161;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -569,7 +569,7 @@ progress {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #8b8b8b;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -619,7 +619,7 @@ progress {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #c2c2c2;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
